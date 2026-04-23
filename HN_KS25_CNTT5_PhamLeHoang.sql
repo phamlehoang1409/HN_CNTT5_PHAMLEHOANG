@@ -72,7 +72,7 @@ create table Project(
         WHEN gender = 0 THEN 'Nữ'
         ELSE 'Khác'
     END AS gender_name
-FROM employees;
+FROM Employee;
 
 
 
